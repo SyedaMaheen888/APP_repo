@@ -37,9 +37,5 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Clean up or perform any other necessary post-processing steps
-        }
-    }
+
 }
