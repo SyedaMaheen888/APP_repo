@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Checkout the code from the GitHub repository
                 script {
-                    def scmVars = checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/SyedaMaheen888/APP_repo.git']]])
+                    def scmVars = checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/SyedaMaheen888/APP_repo.git']]])
                 }
             }
         }
